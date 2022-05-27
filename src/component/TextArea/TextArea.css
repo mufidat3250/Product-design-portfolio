@@ -1,0 +1,7 @@
+textarea {
+    resize: none;
+    height: 7.875rem;
+    width: 100%;
+    outline: none;
+    border: none;
+}

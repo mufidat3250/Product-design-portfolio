@@ -1,0 +1,10 @@
+.active{
+    @apply relative;
+}
+.active::after{
+    position: absolute;
+    background-color: orange;
+    height: 9px;
+    width: 100%;
+    bottom: 20px;
+}
