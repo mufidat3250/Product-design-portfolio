@@ -1,22 +1,22 @@
 export default  [
     {
-        logo:'/public/images/OiLRUN.png',
+        logo:'/images/OiLRUN.png',
         text:<span> Petrol ordering mobile <br /> application</span>,        
-        img:'/public/images/oilrun 1.png',
+        img:'/images/oilrun 1.png',
         overlay:'OilRun',
         bg_color:'rgba(254, 100, 11, 0.7)'
     },
     {
-        logo:'/public/images/topshoplogo.png',
+        logo:'/images/topshoplogo.png',
         text:'An E-commerce website',
-        img:'/public/images/topshop.png',
+        img:'/images/topshop.png',
         overlay:'TopShop',
         bg_color:'rgba(255, 161, 8, 0.7)'
     },
     {
-        logo:'/public/images/logo 1.png',
+        logo:'/images/logo 1.png',
         text:'A blood donation website',
-        img:'/public/images/bloodfuse.png',
+        img:'/images/bloodfuse.png',
         overlay:'BloodFuse',
         bg_color:'rgba(235, 3, 46, 0.7)'
 
