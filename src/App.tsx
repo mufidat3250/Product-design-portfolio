@@ -31,7 +31,7 @@ function App() {
     </p>
   </div>
   <img
-    src="/public/images/mememoji.png"
+    src="/images/mememoji.png"
     alt=""
     className="h-[570px] w-[570px] object-contain order-1 lg:order-2"
   />
