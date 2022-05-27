@@ -86,7 +86,7 @@ function App() {
         <footer className="">
               <Activities title="Contact"/>
 
-              <div className="mt-[2.5rem] flex justify-between ">
+              <div className="mt-[2.5rem] flex justify-between bg-lime-400 ">
                <div className="w-[422px] space-y-[1.75rem]">
                     <Input placeholder="Name"/>
                     <Input placeholder="Email"/>
