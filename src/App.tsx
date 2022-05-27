@@ -92,10 +92,10 @@ function App() {
                     <Input placeholder="Email"/>
                    <div> <TextArea/></div>
                </div>
-               <div className=" flex flex-col justify-between ">
-                <img src="/public/images/LinkedIn.png" alt="" />
-                <img src="/public/images/Twitter.png" alt="" />
-                <img src="/public/images/Behance.png" alt="" />
+               <div className=" flex flex-col justify-between bg-red-700 ">
+                <img src="/images/LinkedIn.png" alt="" />
+                <img src="/images/Twitter.png" alt="" />
+                <img src="/images/Behance.png" alt="" />
                </div>
               </div>
         </footer>
