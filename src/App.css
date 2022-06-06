@@ -18,3 +18,129 @@
 textarea{
   resize: none;
 }
+.love{
+  @apply hidden;
+}
+.smallScreen-icon{
+  visibility: hidden;
+}
+.largeScreen-icon{
+  @apply visible;
+}
+.project-activity{
+  @apply mb-8;
+}
+.product-design{
+  @apply text-orange;
+}
+.button{
+  @apply mb-0
+}
+
+@media (max-width:572px) {
+  .product-container{
+    @apply mt-[4rem] space-y-[1.5rem];
+  }
+  .creator{
+    @apply mx-auto max-w-[13.9375rem];
+  }
+  .product-design{
+    @apply mx-auto text-[10px] font-[400]  text-orange;
+  }
+  .love-to-create{
+    @apply mx-auto hidden;
+  }
+  .emoji{
+    @apply h-[20rem] w-[20rem] mx-auto mt-6;
+  }
+
+  .love{
+    @apply block mx-auto;
+  }
+  .projects{
+    @apply mt-[5rem];
+  }
+.project-activity{
+  @apply grid place-items-center mb-10;
+}
+.project-card{
+  @apply gap-y-[1.5rem];
+}
+.single-grid{
+  @apply space-y-[1.5rem] px-[2.5rem]
+}
+.experience-activity{
+  @apply grid place-items-center mb-10;
+}
+.experience-card{
+  @apply grid place-items-center space-y-[3rem];
+}
+.experience-title,.sub-title, .details{
+  @apply text-center;
+}
+.activity-education{
+  @apply grid place-items-center;
+}
+.education-1{
+  @apply grid place-items-center;
+}
+.education-detail{
+  @apply text-center max-w-[400px] ;
+}
+.tools{
+  @apply grid place-items-center;
+}
+.dif-tools{
+  @apply mx-auto text-center;
+}
+.activities-contact{
+  @apply grid place-items-center;
+} 
+.buttonContainer {
+  @apply grid place-items-center;
+}
+.button{
+  @apply mb-[8.7818rem]
+}
+.smallScreen-icon{
+  visibility: visible;
+}
+.largeScreen-icon{
+    @apply hidden;
+}
+
+}
+
+@media (max-width:1000px) {
+
+  .top{
+    @apply my-[.5rem] space-y-8;
+  }
+  .single-grid{
+    @apply gap-8 px-[2.5rem];
+  }
+  .single-card{
+    @apply mb-6 w-full;
+  }
+  .product-design{
+    @apply text-orange;
+  }
+  .emoji{
+    @apply w-[23.5625rem] h-[28.4375rem] object-scale-down;
+  }
+  .img-head{
+    @apply grid place-items-center;
+  }
+  .project-activity{
+    @apply mb-10;
+  }
+  .experience-activity{
+    @apply mb-10;
+  }
+  .experience-card{
+    @apply space-y-[3rem];
+  }
+  .project-activity{
+    @apply mb-8;
+  }
+}

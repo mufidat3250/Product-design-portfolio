@@ -13,7 +13,7 @@ module.exports = {
         'xl': {'max': '1279px'},
         // => @media (max-width: 1279px) { ... }
   
-        'lgg': {'max': '1024px'},
+        'lgg': {'min': '1024px'},
         // => @media (max-width: 1023px) { ... }
   
         'md': {'max': '767px'},
