@@ -14,7 +14,7 @@
     bottom: 20px;
 }
 .handbugger{
-    @apply sm:hidden lg:hidden md:hidden;
+    @apply  lg:hidden md:hidden;
 }
 .cancel{
     display: none;
@@ -34,7 +34,7 @@
     }
 
     .handbugger{
-        @apply block;
+        @apply block bg-black;
     }
     .cancel{
         @apply mr-[1.875rem] self-end block cursor-pointer;
@@ -43,7 +43,7 @@
         right:-100%;
     }
 }
-@media (min-width:572px) {
+@media (min-width:590px) {
     .handbugger{
         @apply hidden;
     }
