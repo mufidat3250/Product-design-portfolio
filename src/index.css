@@ -17,5 +17,8 @@ body {
   color:#1F1F1F;
 
 }
+:root {
+  font-size: 1rem;
+}
 
 @tailwind utilities;

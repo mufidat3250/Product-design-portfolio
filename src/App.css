@@ -37,7 +37,7 @@ textarea{
   @apply mb-0
 }
 
-@media (max-width:640px) {
+/* @media (max-width:640px) {
   .product-container{
     @apply mt-[4rem] space-y-[1.5rem];
   }
@@ -100,7 +100,7 @@ textarea{
   @apply grid place-items-center;
 }
 .button{
-  @apply mb-[8.7818rem]
+  @apply mb-[1.2rem] md:mb-[8.7818rem] 
 }
 .smallScreen-icon{
   visibility: visible;
@@ -126,7 +126,7 @@ textarea{
     @apply text-orange;
   }
   .emoji{
-    @apply w-[23.5625rem] h-[28.4375rem] object-scale-down;
+    @apply w-[23.5625rem] h-[28.4375rem]  object-scale-down;
   }
   .img-head{
     @apply grid place-items-center;
@@ -143,4 +143,4 @@ textarea{
   .project-activity{
     @apply mb-8;
   }
-}
+} */
