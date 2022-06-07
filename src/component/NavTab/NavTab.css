@@ -14,7 +14,7 @@
     bottom: 20px;
 }
 .handbugger{
-    @apply lg:hidden;
+    @apply md:hidden;
 }
 .cancel{
     display: none;
