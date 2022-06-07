@@ -11,7 +11,7 @@ import TextArea from "./component/TextArea/TextArea";
 function App() {
   return (
     <div className="portfolio w-[90%] mx-auto lg:w-[90rem] bg-[#FCFCFC]">
-      <div className=" bg-green-300 portfolioContainer w-full mx-auto lg:w-[80%] lg:mb-[100px]">
+      <div className="portfolioContainer w-full mx-auto lg:w-[80%] lg:mb-[100px]">
        <div className="">
        <NavTab />
 <section className=" smm:flex smm:flex-col  lg:flex lg:h-fit lg:justify-between lg:items-center lg:gap-x-[1.91625rem]">
@@ -100,7 +100,7 @@ function App() {
             </div>
         </section>
         <footer className="activities-contact activities">
-             <div> <Activities title="Contact"/></div>
+             <div> <Activities title="Contact" link="sayhi"/></div>
 
               <div className="mt-[2.5rem] lg:flex lg:justify-between lg:w-full">
                <div className="max-w-[26.875rem] space-y-[1.75rem]">
