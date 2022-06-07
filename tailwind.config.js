@@ -7,16 +7,16 @@ module.exports = {
         orange:'#FF782B',
       },
       screens: {
-        '2xl': {'max': '1535px'},
+        '2xlm': {'max': '1535px'},
         // => @media (max-width: 1535px) { ... }
   
-        'xl': {'max': '1279px'},
+        'xlm': {'max': '1279px'},
         // => @media (max-width: 1279px) { ... }
   
-        'lgg': {'min': '1024px'},
+        'lgm': {'min': '1024px'},
         // => @media (max-width: 1023px) { ... }
   
-        'md': {'max': '767px'},
+        'mdm': {'max': '767px'},
         // => @media (max-width: 767px) { ... }
   
         'smm': {'max': '639px'},
