@@ -14,12 +14,14 @@
     bottom: 20px;
 }
 .handbugger{
-    @apply sm:visible lg:hidden md:hidden;
+    @apply sm:hidden lg:hidden md:hidden;
 }
 .cancel{
     display: none;
 }
-/* @media screen and (max-width:572px){
+
+
+@media screen and (max-width:572px){
     .navtabs-container{
         @apply flex flex-col space-y-[3.75rem] items-center justify-start  absolute top-0 py-12 bg-white w-full space-x-0 h-screen;
     }
@@ -32,7 +34,7 @@
     }
 
     .handbugger{
-        display:block;
+        @apply block;
     }
     .cancel{
         @apply mr-[1.875rem] self-end block cursor-pointer;
@@ -40,4 +42,9 @@
     .navtabs-container.close{
         right:-100%;
     }
-} */
+}
+@media (min-width:572px) {
+    .handbugger{
+        @apply hidden;
+    }
+}
