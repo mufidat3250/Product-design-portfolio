@@ -103,7 +103,7 @@ function App() {
              <div> <Activities title="Contact" link="sayhi"/></div>
 
               <div className="mt-[2.5rem] lg:flex lg:justify-between lg:w-full">
-               <div className="w-[26.875rem] space-y-[1.75rem] input">
+               <div className="w-[26.875rem] space-y-[1.75rem]">
                     <Input placeholder="Name"/>
                     <Input placeholder="Email"/>
                    <div> <TextArea/></div>
