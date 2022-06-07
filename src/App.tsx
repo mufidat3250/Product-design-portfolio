@@ -12,7 +12,7 @@ import TextArea from "./component/TextArea/TextArea";
 function App() {
   const [count, setCount] = useState(0);
   return (
-    <div className="portfolio w-[95%] mx-auto lg:w-[90rem] bg-[#FCFCFC]">
+    <div className="portfolio w-[90%] mx-auto lg:w-[90rem] bg-[#FCFCFC]">
       <div className=" portfolioContainer w-full mx-auto lg:w-[80%] lg:mb-[100px]">
        <div className="">
        <NavTab />
