@@ -14,13 +14,13 @@ const NavTab = () => {
   return (
     <div className='flex relative items-center justify-start mt-5 lg:flex '>
         <h3 className='text-[#1F1F1F] font-[900]'>Tochukwu’s <span className='font-[350]'>Portfolio</span></h3>
-        <img src={`/public/vectors/${'align-right.svg'}`} alt=""  className='handbugger' onClick={()=>{
+        <img src={`/vectors/${'align-right.svg'}`} alt=""  className='handbugger' onClick={()=>{
           setShowNav(true) 
           console.log('yes')
         }}/>
         <div className={` ${showNav ?'navtabs-container':'navtabs-container hide-navTab'}`}>
 
-          <img src="/public/vectors/x.svg" alt=""  className={`cancel`} onClick={()=>{
+          <img src="/vectors/x.svg" alt=""  className={`cancel`} onClick={()=>{
             setShowNav(false)
           }}/>
         {
