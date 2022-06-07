@@ -34,7 +34,7 @@
     }
 
     .handbugger{
-        @apply block bg-black;
+        @apply block;
     }
     .cancel{
         @apply mr-[1.875rem] self-end block cursor-pointer;

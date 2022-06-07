@@ -37,7 +37,7 @@ textarea{
   @apply mb-0
 }
 
-/* @media (max-width:640px) {
+ @media (max-width:590px) {
   .product-container{
     @apply mt-[4rem] space-y-[1.5rem];
   }
@@ -111,6 +111,7 @@ textarea{
 
 }
 
+/*
 @media (max-width:1000px) {
 
   .top{
