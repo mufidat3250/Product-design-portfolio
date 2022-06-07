@@ -1,5 +1,4 @@
 import { useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import NavTab from "./component/NavTab/NavTab";
 import Projects from "./component/Projects/Projects";
@@ -10,21 +9,20 @@ import Input from "./component/Input/Input";
 import TextArea from "./component/TextArea/TextArea";
 
 function App() {
-  const [count, setCount] = useState(0);
   return (
     <div className="portfolio w-[90%] mx-auto lg:w-[90rem] bg-[#FCFCFC]">
-      <div className=" bg-green-300 portfolioContainer w-full mx-auto lg:w-[80%] lg:mb-[100px]">
+      <div className="portfolioContainer w-full mx-auto lg:w-[80%] lg:mb-[100px]">
        <div className="">
        <NavTab />
 <section className=" smm:flex smm:flex-col  lg:flex lg:h-fit lg:justify-between lg:items-center lg:gap-x-[1.91625rem]">
-  <div className="top lgg:space-y-[2.625rem] product-container  smm:order-1 smm:text-center lg:order-[-1] ">
-    <p className="max-w-[13.9375rem] text-xl creator">
+  <div className="top lg:space-y-[2.625rem] product-container  sm:order-1 smm:text-center lg:order-[-1] ">
+    <p className="max-w-[13.9375rem] text-xl creator mt-[3.5rem] mx-auto mb-[1.5rem] sm:mx-0">
       Creator | Problem Solver
     </p>
-    <h2 className=" smm:text-[2rem] leading-[1.02] font-[600] max-w-[28.99625rem] lgg:text-[70px] xl:text-[100px] product-design">
+    <h2 className=" text-[2rem] leading-[1.02] font-[600] max-w-[28.99625rem] lg:text-[70px] xl:text-[100px] product-design">
       Product Designer
     </h2>
-    <p className="max-w-[25rem] text-[17px] love-to-create">
+    <p className="max-w-[25rem] text-[17px] hidden lg:block">
       I love creating designs that improves the lives of people and help
       businesses achieve their goals.
     </p>
@@ -37,15 +35,15 @@ function App() {
   />
    </div>
   
-  <p className="order-3 max-w-[25rem] text-[17px] love">  I love creating designs that improves the lives of people and help
+  <p className="order-3 max-w-[25rem] text-[17px] love ">  I love creating designs that improves the lives of people and help
       businesses achieve their goals.</p>
 </section>
        </div>
-        <section className="projects lgg:mt-[2.4868rem]">
-            <div className=" project-activity">
+        <section className="projects lg:mt-[2.4868rem]">
+            <div className=" project-activity activities">
             <Activities title="Projects" link='projects' />
             </div>
-          <div className="single-grid project-card sm:grid sm:mx-auto sm:grid-cols-[1fr]  lgg:grid lgg:grid-cols-[repeat(3,1fr)] lgg:gap-x-[1.5rem] sm:place-items-center ">
+          <div className="single-grid project-card sm:grid sm:mx-auto sm:grid-cols-[1fr] sm:gap-y-7 lg:grid lg:grid-cols-[repeat(3,1fr)] lg:gap-x-[1.5rem] sm:place-items-center ">
             {projects.map(({ logo, text, overlay, img, bg_color }, index) => {
               return (
                
@@ -62,10 +60,13 @@ function App() {
           </div>
         </section>
         <section className="py-[7.5rem]">
-         <div className="experience-activity">
+         <div className="experience-activity activities">
          <Activities title="Experience" link='experience' />
          </div>
-          <div className=" experience-card h-full sm:grid sm:grid-cols-[1fr] sm:place-items-center sm:text-center  lgg:grid  lgg:grid-cols-[repeat(3,1fr)] lgg:max-w-[59.4375rem] gap-x-[5.625rem] lgg:mt-[2.5rem] lgg:text-left">
+          <div className=" experience-card h-full sm:grid sm:grid-cols-[1fr] 
+          sm:gap-y-12
+
+          sm:place-items-center sm:text-center  lg:grid  lg:grid-cols-[repeat(3,1fr)] lg:max-w-[59.4375rem] gap-x-[5.625rem] lg:mt-[2.5rem] lg:text-left">
             {
               experience.map(({title,subtitle, summary})=>{
                return <div className="">
@@ -78,14 +79,14 @@ function App() {
           </div>
         </section>
         <section className="mb-[7.5rem]">
-          <div className="activity-education">
+          <div className="activity-education activities">
           <Activities title='Education & Tools'/>
           </div>
             <div className="">
             <div className="education-1">
             <p className="mt-[2.5rem] mb-[1.75rem] education-detail"><span className="">2016 - 2021</span>, Federal University of Petroleum Resources, Effurun. BSc Computer Science</p>
             </div>
-              <p className=" text-xl text-neural font-medium mt-[1.75rem] mb-[1rem] tools">Tools</p>
+              <p className="tools sm:text-xl text-neural font-medium mt-[1.75rem] mb-[1rem] tools">Tools</p>
               
               
               <div className="font-[400] mx-auto dif-tools ">
@@ -98,28 +99,28 @@ function App() {
 
             </div>
         </section>
-        <footer className="activities-contact">
+        <footer className="activities-contact activities">
              <div> <Activities title="Contact"/></div>
 
-              <div className="mt-[2.5rem] flex justify-between">
+              <div className="mt-[2.5rem] lg:flex lg:justify-between lg:w-full">
                <div className="w-[430px] space-y-[1.75rem]">
                     <Input placeholder="Name"/>
                     <Input placeholder="Email"/>
                    <div> <TextArea/></div>
                </div>
-               <div className=" flex flex-col justify-between largeScreen-icon hidden sm:block  sm:flex sm:flex-col items-center">
+               <div className=" lg:flex lg:flex-col lg:justify-between largeScreen-icon hidden sm:hidden   sm:flex lg:block sm:flex-col items-center">
                 <img src="/images/LinkedIn.png" alt="" />
                 <img src="/images/Twitter.png" alt="" />
                 <img src="/images/Behance.png" alt="" />
                </div>
               </div>
         </footer>
-      <div className="w-full buttonContainer">
-      <button className="button bg-neural py-[14.5px] px-[51.5px] text-white mt-[2.25rem]">Submit</button>
+      <div className="w-full buttonContainer sm:grid sm:place-items-center sm:mb-[8.4rem] lg:place-items-start lg:grid">
+      <button className="button bg-neural py-[14.5px] px-[51.5px] text-white lg:mt-[2.25rem] lg:mb-[8.6rem]">Submit</button>
       </div>
 
-       <div className="smallScreen-icon flex justify-center items-center">
-       <div className=" flex  justify-between space-x-[6.0625rem] pb-[3rem]">
+       <div className="smallScreen-icon flex justify-center items-center lg:hidden">
+       <div className=" flex  justify-between space-x-[6.0625rem] pb-[3rem] ">
                 <img src="/images/LinkedIn.png" alt="" />
                 <img src="/images/Twitter.png" alt="" />
                 <img src="/images/Behance.png" alt="" />

@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 const Activities = ({title,link}:{title:string; link?:string}) => {
   return (
