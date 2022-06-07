@@ -1,6 +1,6 @@
 
 .navtabs-container{
-    @apply flex space-x-[2.5rem] items-center  ;
+    @apply flex space-x-[2.5rem] items-center  bg-amber-400 ;
 }
 
 .active{
@@ -23,7 +23,7 @@
 
 @media screen and (max-width:590px){
     .navtabs-container{
-        @apply flex flex-col space-y-[3.75rem] items-center justify-start  absolute top-0 py-12 bg-white w-full space-x-0 h-screen;
+        @apply flex flex-col space-y-[3.75rem] items-center justify-start  absolute top-0 py-12 bg-red-600 w-full space-x-0 h-screen ;
     }
     .hide-navTab{
         @apply hidden;
