@@ -12,7 +12,7 @@ let navTab = [{title:'Projects', link:'projects'}, {
 const NavTab = () => {
     const [showNav, setShowNav] = useState(false)    
   return (
-    <div className='Nav flex relative items-center justify-between mt-5 lg:flex '>
+    <div className='flex relative items-center justify-between mt-5 lg:flex '>
         <h3 className='text-[#1F1F1F] font-[900]'>Tochukwu’s <span className='font-[350]'>Portfolio</span></h3>
         <img src={`/public/vectors/${'align-right.svg'}`} alt=""  className='handbugger' onClick={()=>{
           setShowNav(true) 
