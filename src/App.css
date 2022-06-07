@@ -70,5 +70,10 @@ textarea{
     .buttonContainer{
       @apply grid place-items-center mb-[8.4rem];
     }
+
+    .input{
+      @apply w-[29rem]
+    }
    }
+   
   }
